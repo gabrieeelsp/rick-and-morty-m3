@@ -1,0 +1,50 @@
+.filterBox {
+    display: flex;
+    align-items: center;    
+    justify-content: flex-start;
+
+}
+
+
+select {
+    background-color: black;
+    color: white;
+    height: 2em;
+    font-size: 1.2em;
+    border: 3px solid green;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+select:focus {
+    outline: none;
+}
+
+select:nth-child(1) {
+    margin-right: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .filterBox {
+        margin-top: 20px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .filterBox {
+        margin-top: 20px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .filterBox {
+        margin-top: 0px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
